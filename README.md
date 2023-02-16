@@ -1,3 +1,5 @@
 MSDS692 Regis University SP23_8WK1
+
 Practicum 1 title: Predicting Major League Baseball (MLB) team win totals, post-season eligibility, and individual player salaries
+
 For this project I’ll be working with datasets obtained from SeanLahman.com. The goal of the project is to utilize machine learning and MLB statistics to make regressive and categorical predictions. These predictions could be used as benchmarks for attaining high levels of success such as a high salary and making the playoffs. EDA will be performed to identify trends and better understand the data, and visualization of the results will follow. The data will be cleaned and prepared for machine learning by dealing with outliers & missing values, encoding, and feature engineering. In the machine learning phase I will test various algorithms that include both supervised and unsupervised models. Linear & non-linear regression models will be used to predict salaries & win totals, while classification models will be used to predict playoff status. All models will be evaluated and the most successful will be ‘deployed’ for use. 
