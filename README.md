@@ -16,7 +16,7 @@ The purpose of this project was to analyze baseball batting and fielding statist
 
 **Description of data**
 
-CSV files used from 'The Lahman Baseball Database 1871-2021’, downloaded from the seanlahman.com archive. For this project, I used the batting, salaries, fielding, and players files. 
+CSV files were from 'The Lahman Baseball Database 1871-2021’, and downloaded from the seanlahman.com archive. For this project, I used the batting, salaries, fielding, and players files. 
 
 **Scoring metrics**
 
