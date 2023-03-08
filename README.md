@@ -64,15 +64,15 @@ The final stage was fitting the data to various ML models and evaluating the res
  - Scaled & unscaled data
  - Models used:
      - Regression:
-     - Linear Regression
-     - Lasso, LassoCV
-     - RidgeCV
-     - ElasticNet
+         - Linear Regression
+         - Lasso, LassoCV
+         - RidgeCV
+         - ElasticNet
      - Ensemble:
-     - Ada Boost Regressor (AB)
-     - Gradient Boosting Regressor (GBM)
-     - Random Forest Regressor (RF)
-     - Extra Trees Regressor (ET).
+         - Ada Boost Regressor (AB)
+         - Gradient Boosting Regressor (GBM)
+         - Random Forest Regressor (RF)
+         - Extra Trees Regressor (ET)
                 
 **Evaluation** 
 
