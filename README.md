@@ -18,13 +18,13 @@ The purpose of this project was to analyze baseball batting and fielding statist
 
 CSV files downloaded from the seanlahman.com archive 
 
-**Scoring metrics **
+**Scoring metrics**
 
 For each ML model utilized, a R-squared (R^2) value and Mean Absolute Error (MSE) or Negative Mean Absolute Error (NMAE) will be provided:
 - R^2 represents the proportion of the variance in the target variable that is explained by the ML model. Ranging from 0 to 1, with higher values indicating a better fit
 - MAE measured the average absolute difference between the predicted and actual earnings totals
 
-**Data cleaning and preparation **
+**Data cleaning and preparation**
 
 -	The timeframe was set to 1985-2016 to coincide with the available salary data
 -	Feature engineering led to the creation of 4 new columns (POS, SLG, OBP, PA)
@@ -35,7 +35,7 @@ For each ML model utilized, a R-squared (R^2) value and Mean Absolute Error (MSE
 **Exploratory data analysis and visualization**
 
 Correlation matrix shows strong correlation with many features and target variable (column 1). Multicollinearity was also present:
- 
+![image](https://user-images.githubusercontent.com/102693978/223831830-b62a7007-b7e4-4f91-b92d-c43f1528b587.png)
 
 Columns with high correlation with the target variable were cumulative statistics, including runs & RBIs:
  
