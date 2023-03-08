@@ -38,15 +38,15 @@ Correlation matrix shows strong correlation with many features and target variab
 ![image](https://user-images.githubusercontent.com/102693978/223831830-b62a7007-b7e4-4f91-b92d-c43f1528b587.png)
 
 Columns with high correlation with the target variable were cumulative statistics, including runs & RBIs:
- 
+![image](https://user-images.githubusercontent.com/102693978/223832090-90416c5c-9d47-41d3-ba06-73984650d157.png)
  
 **Feature importance and selection**
 
 I relied on the results of the `RandomForestRegressor()` to determine feature importance and dropped columns below the .02 threshold (blue arrow). The red arrow is a random number column
-
+![image](https://user-images.githubusercontent.com/102693978/223832163-29ab3ed3-3b6b-4e6e-b71c-ccf526d54862.png)
  
 ‘PA’ was dropped reduce multicollinearity, and the finalized dataset included 4 features + the target:
-
+![image](https://user-images.githubusercontent.com/102693978/223832243-7e68474f-4515-48a7-a802-62f99815ef77.png)
  
 **Machine learning and evaluation** 
 
@@ -72,8 +72,9 @@ The final stage was fitting the data to various ML models and evaluating the res
                 
 **Evaluation** 
 
-The highest R^2 value was from the Kfold GBM model, and the lowest MAE was from the tuned KNN model (k=26). The Kfold method (highlighted blue) had higher R^2 values and MAEs with the exception being the standalone KNN regressor.
-
-Machine learning results for all models:
+The highest R^2 value was from the Kfold GBM model, and the lowest MAE was from the tuned KNN model (k=26). The Kfold method (highlighted blue) had higher R^2 values and MAEs with the exception being the standalone KNN regressor. (Full results below)
 
 My final thought on this topic is that it is logical for higher statistical totals to translate to higher salaries. Players who put up significant stats in at least one of the feature columns (RBI, R, H, IBB) are likely to have played multiple seasons, received multiple contracts, and thus receive higher earnings. 
+
+Full ML results:
+![image](https://user-images.githubusercontent.com/102693978/223832685-c74ad551-274f-41af-b929-f9895e6b7dd1.png)
