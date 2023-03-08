@@ -76,7 +76,7 @@ The final stage was fitting the data to various ML models and evaluating the res
                 
 **Evaluation** 
 
-The highest R^2 value was from the Kfold GBM model, and the lowest MAE was from the tuned KNN model (k=26). The Kfold method (highlighted blue) had higher R^2 values and MAEs with the exception being the standalone KNN regressor. (Full results below)
+The highest R^2 value was from the Kfold GBM model, and the lowest MAE was from the tuned KNN model (k=26). The Kfold method (highlighted blue) had higher R^2 values and MAEs with the exception being the standalone KNN regressor. 
 
 My final thought on this topic is that it is logical for higher statistical totals to translate to higher salaries. Players who put up significant stats in at least one of the feature columns (RBI, R, H, IBB) are likely to have played multiple seasons, received multiple contracts, and thus receive higher earnings. 
 
