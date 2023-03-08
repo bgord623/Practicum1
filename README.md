@@ -60,19 +60,19 @@ The final stage was fitting the data to various ML models and evaluating the res
 -	Multiple Linear Regression
 -	K-nearest Neighbors (random k, tuned k)
 -	K-Fold Cross-Validation 
-        - 5 folds ~ 500 rows each
-        - Scaled & unscaled data
-        - Models used:
-            - Regression:
-                - Linear Regression
-                - Lasso, LassoCV
-                - RidgeCV
-                - ElasticNet
-            - Ensemble:
-                - Ada Boost Regressor (AB)
-                - Gradient Boosting Regressor (GBM)
-                - Random Forest Regressor (RF)
-                - Extra Trees Regressor (ET).
+ - 5 folds ~ 500 rows each
+ - Scaled & unscaled data
+ - Models used:
+  - Regression:
+   - Linear Regression
+   - Lasso, LassoCV
+   - RidgeCV
+   - ElasticNet
+  - Ensemble:
+   - Ada Boost Regressor (AB)
+   - Gradient Boosting Regressor (GBM)
+   - Random Forest Regressor (RF)
+   - Extra Trees Regressor (ET).
                 
 **Evaluation** 
 
